@@ -20,8 +20,8 @@ ul li {
     width: 50px;
 }
 ul li:hover{
-    background-color: white;
-    color: black;
+    background-color: green;
+    color: yellow;
     
 }
 .menu{
