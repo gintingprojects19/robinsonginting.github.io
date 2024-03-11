@@ -1,0 +1,126 @@
+*{
+margin:0px;
+}
+.toggle{
+   visibility: hidden; 
+}
+.logo{
+    width: 70px;
+    height: 70px;
+
+    margin-left: 15%;
+}
+.nama-sekolah{
+    width: 800px;
+    height: 70px;
+    background-color: grey;
+}
+.toggle{
+    width: 40px;
+    height: 70;
+    background-color: red;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    position: fixed;
+}
+.sekolah{
+    width: 100%;
+    height: 70px;
+    background-color: greenyellow;
+    display: flex;
+}
+.menu{
+   
+    height: 30px;
+    margin: auto; 
+   
+} 
+.menu .list-menu li{
+    width: 100px;
+    height: 25px;
+    list-style: none;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 30px;
+    display: flex;
+    
+}
+.hero-image{
+    width: 100%;
+}
+.sosmed-link{
+    visibility: hidden;
+}
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 70px;
+    }
+    .menu{
+        position: absolute;
+        width: 70%;
+        left: -350px;
+        transition: .6s;    
+    }
+    .menu.show{
+        left: 0px;
+        transition: .6s;
+    }
+    .menu .list-menu{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top:20%;
+        margin-left: -50px;
+        background-color: black;
+        color: white;
+    }
+    .menu .list-menu li{
+        background-color:black;
+        /*margin-left: 20%;*/
+        padding: 20px;
+        background-color: black;
+    }
+    .toggle{
+        visibility: visible;
+        cursor: pointer;
+    }
+    .sosmed{
+        width: 20%;
+        visibility: visible;
+    }
+    .sosmed-link{
+        margin-left: 50%;
+        width: 70%;
+        visibility: visible;
+        margin-bottom: 30px;  
+    }
+    .hero-image{
+        width: 70px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .ginting{
+        font-size: 20pt;
+        font-weight: bold;
+        padding: 20px;
+        color: white;
+    }
+    .nama-sekolah, .logo, .toggle, .sekolah{
+        background-color: black;
+        color: white;
+    }
+    .toggle{
+        position: fixed;
+        margin-top: 18%;
+        padding-left:10px;
+        padding: 20px;
+        height: 10px;
+
+    }
+}
