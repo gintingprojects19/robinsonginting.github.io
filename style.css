@@ -185,6 +185,8 @@ body{
     #quote-gbr{
        width: 40%; 
     }
-    
+    .footer{
+        flex-direction: column;
+    }
 
 }
