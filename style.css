@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: greenyellow;
+}
+.content{
+    padding-top: 120px;
+    width: 100%;
+    height: 1000px;
+    
+    margin: auto;
+}
+.hero-image{
+    
+    width: 80%;
+    height: 515px;
+    background-color: #c5c4cd;
+    margin: auto;
+}
+.info{
+    width: 100%;
+    
+    background-color:#115a10;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.quote{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: row; 
+    margin: auto;
+    margin-top: 20px;
+   gap:1rem;
+    font-family: charm;
+    margin-bottom: 5%;
+}
+#quote-gbr{
+    width: 20%;
+}
+#quote-now{
+    margin-top: 10px;
+
+    text-align: justify;
+    
+}
+.experience{
+    width: 30%;
+    text-align: justify;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color:forestgreen;
+    color: white;
+    font: 10pt;
+}
+.judul-pengalaman{
+    width: 400px;
+    text-align: center;
+    border-bottom: 5px solid darkblue;
+    margin: auto;
+    font-family: fantasy;
+
+}
+.experience:hover{
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+    background-color:yellowgreen;
+    color: darkblue;
+}
+.experience-gbr{
+    width: 100%;
+
+   
+}
+.center{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:1em;
+    align-content:center;
+    flex-wrap: wrap;
+}
+.left{
+    width: 10%;
+    
+}
+.right{
+    width: 10%;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    position: fixed;
+    
+}
+
+.info-navbar{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.info1{
+    width: 25%;
+    height: 25px;
+    background-color: white;
+}
+/*.info2{
+    width: 50%;
+    height: 75px;
+    background-color: white;
+}*/
+
+.toggle{
+    width: 25%;
+    height: 75px;
+    background-color: white;
+}
+.judul{
+    padding: 15px;
+}
+.deskripsi{
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+.footer-left, .footer-center, .footer-right{
+    width: 50%;
+    height: 400px;
+    background-color: darkslategrey;
+}
+.sosmed{
+    width: 50px;
+}
+
+/*Repsonsive Handphone*/
+
+
+@media only screen and (max-width: 978px){
+    .center{
+        flex-direction: column;  
+    }
+    .experience{
+        width: 100%;
+    }
+    .quote{
+        width: 80%;
+    }
+    .quote-utama{
+        font-weight: 300;
+
+    }
+}
+
+@media only screen and (max-width: 734px){
+    #quote-gbr{
+       width: 25%; 
+    }
+    .judul-pengalaman{
+        width: 30%;
+        font-size: 11pt;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    #quote-gbr{
+       width: 40%; 
+    }
+    
+
+}
