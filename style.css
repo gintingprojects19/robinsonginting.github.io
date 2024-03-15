@@ -155,6 +155,9 @@ body{
     .center{
         flex-direction: column;  
     }
+    .footer{
+        flex-direction: column;
+    }
     .experience{
         width: 100%;
     }
